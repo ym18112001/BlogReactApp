@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "my 5th post",
+      "content": "if you find both the tokens invalid, send a request to your logout API. If just the refresh token is invalid, send a request to the Refresh Token API and update the refresh token.",
+      "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*3AYAWNR52tprPciTgWkvYg.jpeg",
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "title": "my 1st post",
+      "content": "if you find both the tokens invalid, send a request to your logout API. If just the refresh token is invalid, send a request to the Refresh Token API and update the refresh token.",
+      "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*3AYAWNR52tprPciTgWkvYg.jpeg",
+      "authorId": 1,
+      "id": 2
+    },
+    {
+      "title": "mero",
+      "content": "if you find both the tokens invalid, send a request to your logout API. If just the refresh token is invalid, send a request to the Refresh Token",
+      "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*3AYAWNR52tprPciTgWkvYg.jpeg",
+      "authorId": 2,
+      "id": 3
+    }
+  ]
+}
