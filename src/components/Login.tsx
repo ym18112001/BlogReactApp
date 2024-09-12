@@ -33,7 +33,7 @@ const Login = () => {
         formState: { errors, isValid },
     } = useForm<user>({ mode: "onSubmit", resolver: yupResolver(User) });
 
-    const [err, setErr] = useState<AxiosError | null>(null);
+    const [_err, setErr] = useState<AxiosError | null>(null);
 
 
     type user = { email: string; password: string; }

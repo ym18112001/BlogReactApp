@@ -13,9 +13,9 @@ import AddPost from "./components/AddPost";
 import EditPost from "./components/EditPost";
 function App() {
   
-  const [posts, setPosts] = useState<Post[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [err, setErr] = useState<AxiosError | null>(null);
+  const [_posts, setPosts] = useState<Post[]>([]);
+  const [_isLoading, setIsLoading] = useState<boolean>(false);
+  const [_err, setErr] = useState<AxiosError | null>(null);
 
 
 

@@ -33,7 +33,7 @@ function AddPost() {
     formState: { errors, isValid },
   } = useForm<Omit<PostwoId, 'authorId'>>({ mode: "onSubmit", resolver: yupResolver(UserSchema) });
 
-  const [err, setErr] = useState<AxiosError | null>(null);
+  const [_err, setErr] = useState<AxiosError | null>(null);
   const navigate = useNavigate();
   const HomeNav = () => { navigate('/'); }
   const AddPostSuccess = (postId: number) => { toast.success(` Added Post Succesfully with Id ${postId}`, { onClose: HomeNav }) };

@@ -33,7 +33,7 @@ function EditPost() {
     formState: { errors, isValid },
   } = useForm<post>({ mode: "onSubmit", resolver: yupResolver(UserSchema) });
 
-  const [err, setErr] = useState<AxiosError | null>(null);
+  const [_err, setErr] = useState<AxiosError | null>(null);
   const navigate = useNavigate();
   const HomeNav = () => { navigate('/'); }
   const EditPostSuccess = (postId: number) => { toast.success(` Edited Post Succesfully with Id ${postId}`, { onClose: HomeNav }) };

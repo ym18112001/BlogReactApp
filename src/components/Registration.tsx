@@ -34,7 +34,7 @@ function Regestration() {
     formState: { errors, isValid },
   } = useForm<User>({ mode: "onTouched", resolver: yupResolver(UserSchema) });
 
-  const [err, setErr] = useState<AxiosError | null>(null);
+  const [_err, setErr] = useState<AxiosError | null>(null);
   const navigate = useNavigate();
   const LoginNav = () => { navigate('/login'); }
   const RegisterSuccess = () => { toast.success(" Registered Succesfully", { onClose: LoginNav }) };
